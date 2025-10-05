@@ -11,3 +11,5 @@ About _Jutge_: At FIB there is software that corrects our codes similarly to Lee
 To play the game: download the repository, decompress it, open the folder Mario_infinity_game at the terminal, type ```make```, and run ```./mario_pro_2```. Play with `w`, `a`, `d` to jump, move forward, and move backward, respectively.
 
 To add your score: Commit a change directly to classification.txt
+
+NOT COMPILING??? Don't panic; there are some compatibilities that you must check. I don't know which will crash in your case, but in mine, VSCode compiled, but the normal terminal didn't. It was because my VSCode has access to more libraries, specifically XKBlib.h. Just install the ones you don't have, or maybe try compiling from VSCode.

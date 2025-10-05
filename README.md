@@ -1,3 +1,5 @@
+# Infinity Mario Game
+
 This is a final project of the Programming 2 subject from the Computer Engineering Degree (CED) of FIB, UPC.
 
 They told us to do a game based on some code they gave us. The code they gave was just a basic Mario with 3 platforms; we had just the visual generator environment.

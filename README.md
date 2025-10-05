@@ -8,4 +8,6 @@ To do all of this, I designed a data structure based on a quaternary tree that m
 
 About _Jutge_: At FIB there is software that corrects our codes similarly to LeetCode; it judges them, giving us scores. That's why he uses a Hummer, the game Hummer. But when our code is too slow, has an infinity loop, or has an invalid memory reference... it shows us a bomb. He is telling us that the computer would explode if we tried to execute our program; this is the bomb that Mario deactivates.
 
-To play the game: download the folder Mario_infinity_game, open it at the terminal, type ```make```, and run ```./mario_pro_2```. Play with `w`, `a`, `d` to jump, move forward, and move backward, respectively.
+To play the game: download the repository, decompress it, open the folder Mario_infinity_game at the terminal, type ```make```, and run ```./mario_pro_2```. Play with `w`, `a`, `d` to jump, move forward, and move backward, respectively.
+
+To add your score: Commit a change directly to classification.txt

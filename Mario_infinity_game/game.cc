@@ -1,4 +1,4 @@
-//I DIDN'T DO EVERY THING.
+//I JUST DID THE IMPLEMENTATIONS OF THE FUNCTIONS, NOT THE CLASS.
 
 #include "game.hh"
 #include "utils.hh"

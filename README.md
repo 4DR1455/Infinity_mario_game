@@ -14,4 +14,4 @@ To play the game: download the repository, decompress it, open the folder Mario_
 
 To add your score: Commit a change directly to classification.txt
 
-NOT COMPILING??? Don't panic; there are some compatibilities that you must check. I don't know which will crash in your case, but in mine, VSCode compiled, but the normal terminal didn't. It was because my VSCode has access to more libraries, specifically XKBlib.h. Just install the ones you don't have, or maybe try compiling from VSCode.
+***NOT COMPILING???*** Don't panic; there are some compatibilities that you must check. I don't know which will crash in your case, but in mine, VSCode compiled, but the normal terminal didn't. It was because my VSCode has access to more libraries, specifically XKBlib.h. Just install the ones you don't have, or maybe try compiling from VSCode. **If you just want to play**, you can try on executing ./mario_pro_2 at main folder repository, so you don't need to deal with compatibilities, this si the executable.

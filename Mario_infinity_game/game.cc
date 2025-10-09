@@ -182,7 +182,7 @@ void Game::paint(pro2::Window& window) {
     else if (g_o) {
         window.clear(pro2::black);
         pro2::paint_sprite(window, {wr.left + 50, wr.top + 50}, escala(game_over, 4), false);
-        pro2::paint_sprite(window, {wr.left + 50, wr.top + 122}, escala(ds_.front().document_sprite_front(), 3), false);
+        if(!ds_.empty()) pro2::paint_sprite(window, {wr.left + 50, wr.top + 122}, escala(ds_.front().document_sprite_front(), 3), false);
         pro2::paint_sprite(window, {wr.left + 90, wr.top + 138}, escala(s_dp, 2), false);
         
         const int ST = 35;
